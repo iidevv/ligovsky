@@ -1,0 +1,31 @@
+{
+  "name": "gulp-build",
+  "version": "1.0.0",
+  "description": "gulp-build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "browser-sync": "^2.27.5",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-uglify-es": "^3.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "inputmask": "^5.0.6",
+    "swiper": "^7.0.5",
+    "tingle.js": "^0.15.3"
+  }
+}

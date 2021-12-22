@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лиговский 50</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/leaflet.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="custom-logo-link" href="/">
+              <img src="images/logo.svg" alt="logo">
+            </a>
+            <span class="logo__descr">
+              Информационный <br> портал
+            </span>
+          </div>
+          <nav class="menu">
+
+            <button aria-label="Меню" class="menu-btn">
+              <span class="visually-hidden">Меню</span>
+            </button>
+
+            <div class="menu__inner">
+
+              <button aria-label="Закрыть" class="menu__close">
+                &times;
+              </button>
+
+              <ul class="menu__list">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Условия покупки</a></li>
+                <li class="news"><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+
+            </div>
+
+          </nav>
+          <div class="socials">
+            <a class="socials-item socials-item--tg" aria-label="telegram" rel="nofollow" target="_blank"
+              href="https://t.me/ligovsky50">
+              <span class="socials-item__text">
+                Подписаться <br> на телеграм канал
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="map-section">
+        <div class="container">
+          <div class="map-section__inner">
+            <div class="map-wrapper">
+              <div class="map" id="map"></div>
+              <div class="map-elements">
+                <a class="company" id="company-1" href="#" target="_blank">
+                  <img class="company__image" src="images/logos/02.jpg" alt="logo">
+                  <p class="company__description">description</p>
+                </a>
+                <a class="company" id="company-2" href="#" target="_blank">
+                  <img class="company__image" src="images/logos/03.jpg" alt="logo">
+                  <p class="company__description">description</p>
+                </a>
+                <a class="company" id="company-3" href="#" target="_blank">
+                  <img class="company__image" src="images/logos/04.jpg" alt="logo">
+                  <p class="company__description">description</p>
+                </a>
+              </div>
+              <div class="map-total">
+                <p class="map-total__selected">Выбрано: 0</p>
+                <p class="map-total__sum">Сумма: 0 ₽</p>
+                <a class="map-total__cart" href="#">В корзину</a>
+              </div>
+            </div>
+            <div class="banners">
+              <div class="banners__items">
+                <a class="banners__item banners__item--sm" href="#">
+                  <img src="images/banner_small.jpg" alt="Здесь может быть ваша реклама">
+                </a>
+                <a class="banners__item banners__item--sm" href="#">
+                  <img src="images/banner_small.jpg" alt="Здесь может быть ваша реклама">
+                </a>
+              </div>
+              <a class="banners__item" href="#">
+                <img src="images/banner.jpg" alt="Здесь может быть ваша реклама">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="privacy">
+            <a href="#">Политика конфиденциальности</a>
+          </p>
+          <p class="creator">
+            Разработка
+            <a class="creator__link" rel="noopener noreferrer" target="_blank" href="https://silverduck.net/">
+              SilverDuck
+            </a>, 2021
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/map.js"></script>
+
+  
+</body>
+
+</html>
