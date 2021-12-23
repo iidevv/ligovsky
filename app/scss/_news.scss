@@ -150,51 +150,61 @@
                     width: 100%;
                 }
 
-                .content-info {
-                    padding:26px 30px;
-                    margin-left: auto;
-                    display:flex;
-                    align-items:center;
-                    justify-content: flex-end;
-
-                    a {
-                        display:flex;
-                        align-items: center;
-                        margin-left: 25px;
-
-                        svg {
-                            margin-right: 10px;
-                        }
-
-                        span {
-                            font-family: "Roboto";
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 14px;
-                            line-height: 16px;
-                            letter-spacing: 0.02em;
-                            color: #000000;
-                            opacity: 0.5;
-                        }
-                        
-
-                        &:hover {
-                            svg path {
-                                fill:#146FCC;
-                                color:#146FCC;
-                            }
-                            span {
-                                color:#146FCC;
-                            }
-                        }
-                    }
-                }
+              
             }
         }
+
+        
     }
+
+    
 
     .sidebar-right {
         max-width: 270px;
         width: 100%;
     }
+}
+
+.content-info {
+    padding:26px 30px;
+    margin-left: auto;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+
+    a {
+        display:flex;
+        align-items: center;
+        margin-left: 25px;
+
+        svg {
+            margin-right: 10px;
+        }
+
+        span {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            color: #000000;
+            opacity: 0.5;
+        }
+        
+
+        &:hover {
+            svg path {
+                fill:#146FCC;
+                color:#146FCC;
+            }
+            span {
+                color:#146FCC;
+            }
+        }
+    }
+}
+
+.single-post-wrapper .container-sm .single-item-wrapper {
+    margin-top: 0 !important;
 }
