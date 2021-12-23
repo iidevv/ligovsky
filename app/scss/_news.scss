@@ -1,6 +1,37 @@
 .news-wrap {
     display:flex;
     justify-content: space-between;
+    margin-top: 30px;
+
+    .category-header {
+        border-radius: 10px;
+        height: 240px;
+        padding:89px 0 42px 35px;
+        color:#fff;
+
+        h1 {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin:10px 0 15px 0;
+        }
+        .publication {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        .description {
+            width: 320px;
+        }
+    }
 
     .sidebar-left {
         max-width: 270px;
@@ -68,6 +99,98 @@
     .container-sm {
         max-width: 670px;
         width: 100%;
+
+
+        .single-item-wrapper {
+            border-radius: 16px;
+            border:2px solid #D4D4D4;
+            margin:40px 0 0 0;
+
+            header {
+                padding:30px;
+                display:flex;
+                align-items:center;
+                justify-content: space-between;
+
+                .views, .date {
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    color: #000000;
+                    opacity: 0.5;
+                }
+
+                .category-name {
+                    display:flex;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.02em;
+                    color: #000000;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .content-title {
+                padding:0 30px;
+                margin:0;
+            }
+            .content {
+                padding:0 30px;
+            }
+
+            footer {
+                
+                img {
+                    width: 100%;
+                }
+
+                .content-info {
+                    padding:26px 30px;
+                    margin-left: auto;
+                    display:flex;
+                    align-items:center;
+                    justify-content: flex-end;
+
+                    a {
+                        display:flex;
+                        align-items: center;
+                        margin-left: 25px;
+
+                        svg {
+                            margin-right: 10px;
+                        }
+
+                        span {
+                            font-family: "Roboto";
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 16px;
+                            letter-spacing: 0.02em;
+                            color: #000000;
+                            opacity: 0.5;
+                        }
+                        
+
+                        &:hover {
+                            svg path {
+                                fill:#146FCC;
+                                color:#146FCC;
+                            }
+                            span {
+                                color:#146FCC;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .sidebar-right {
